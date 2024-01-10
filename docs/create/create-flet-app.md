@@ -34,3 +34,7 @@ To create a new Flet app from "counter" template run the following command:
 ```
 flet create --template counter <project-name>
 ```
+
+Async or not async?
+
+Creating async from template, limnk to other doc
