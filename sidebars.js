@@ -105,6 +105,7 @@ module.exports = {
             "controls/listtile",
             "controls/listview",
             "controls/page",
+            "controls/pagelet",
             "controls/responsiverow",
             "controls/row",
             "controls/safearea",
