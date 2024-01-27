@@ -520,6 +520,14 @@ Text size in virtual pixels.
 
 The style to use for the text being edited.
 
+### `text_vertical_align`
+
+Defines how the text should be aligned vertically. It's value can either be a number ranging from `-1.0` (topmost location) to `1.0` (bottommost location) or of type `VerticalAlignment` enum with the following values:
+
+* `START` - aligns the text vertically at the topmost location of the text field
+* `CENTER` (default) - aligns the text vertically in the center of the text field
+* `END` - aligns the text vertically at the bottommost location of the text field
+
 ### `value`
 
 Current value of the TextField.
