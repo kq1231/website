@@ -461,6 +461,10 @@ The [color](/docs/guides/python/colors) of TextField selection.
 
 Changes the behavior of `Enter` button in `multiline` TextField to be chat-like, i.e. new line can be added with `Shift`+`Enter` and pressing just `Enter` fires `on_submit` event.
 
+### `show_cursor`
+
+Whether the field's cursor is to be shown. Defaults to `True`.
+
 ### `smart_dashes_type`
 
 Whether to allow the platform to automatically format dashes.
