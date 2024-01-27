@@ -194,6 +194,14 @@ ft.app(target=main)
 
 ## Properties
 
+### `adaptive`
+
+If the value is `True`, an adaptive TextField is created based on whether the target platform is iOS/macOS.
+
+On iOS and macOS, a [`CupertinoTextField`](/docs/controls/cupertinotextfield) is created, which has matching functionality and presentation as `TextField`, and the graphics as expected on iOS. On other platforms, a Material TextField is created.
+
+The default value is `False`.
+
 ### `autocorrect`
 
 Whether to enable autocorrection. Default is `True`.
