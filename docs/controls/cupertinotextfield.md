@@ -342,6 +342,10 @@ When this is set to `True`, the text cannot be modified by any shortcut or keybo
 
 Defaults to `False`.
 
+### `rtl`
+
+`True` to set text direction to right-to-left. Default is `False`.
+
 ### `selection_color`
 
 The [color](/docs/guides/python/colors) of TextField selection.
