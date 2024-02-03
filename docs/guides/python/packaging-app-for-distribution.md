@@ -337,7 +337,7 @@ To successfully generate IPA you should provide correct values for the following
 
 ### Splash screen
 
-By default, generated iOS app will be showing a splash screen with an image from `assets` directory (see below) or Flet logo. You can disable splash screen for Android app with `--no-ios-splash` option.
+By default, generated iOS app will be showing a splash screen with an image from `assets` directory (see below) or Flet logo. You can disable splash screen for iOS app with `--no-ios-splash` option.
 
 ## `flet build macos`
 
